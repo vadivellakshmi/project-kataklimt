@@ -1,0 +1,391 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    border: 0;
+    padding: 0;
+    
+}
+
+.white{
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 80%;
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+   
+}
+    .lightblack{
+
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 80%;
+          margin: auto;
+          box-sizing: border-box;
+        background-color:#161616;
+
+    }
+
+    .black{
+
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 80%;
+          margin: auto;
+          box-sizing: border-box;
+        background-color:black;
+
+    }
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+   
+    
+    
+    
+}
+
+.menu h1{
+    font-size: 60px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.5);
+    
+    }
+
+    .menu h1::first-letter{
+         
+        color:#E85356;
+    }  
+.text{
+    color:#E85356;
+}
+
+.cmptitle{
+   display: inline;
+   position: relative;
+    
+}
+  
+.cmptitle h6{
+    position:absolute;
+    bottom: 3px;
+    color: rgba(0, 0, 0, 0.5);
+   
+    font-size: 20px;
+    
+}
+
+.navbar ul li{
+
+    list-style: none;
+   
+   
+   
+      
+    }
+
+    
+    .navbar ul{ 
+   display: flex;
+   position: relative;
+   top: 60px;}
+ 
+   .navbar ul li a{
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+
+
+   }
+
+     .navbar ul li a:hover, .active{
+    border-radius: 50%;
+    background-color: #E85356;
+    color: white;
+
+   }
+
+   .logo{
+    margin-top: 30px;
+    
+ 
+   display: flex;
+   
+  
+   
+
+   }
+
+   .logo img{
+       width: 100%;
+       min-height: 40vh;
+      
+       
+       }
+
+    
+
+.txtwelcome{
+    margin-top: 30px;
+  color: whitesmoke;
+  display: flex;}
+  
+  
+ 
+
+ 
+  
+  .main2{
+      width: 70%;
+      height: 20vh;
+      display: flex;
+    
+     
+     
+    }
+
+    .main2 h2{
+        font-size: 50px;
+    font-weight:lighter;
+    color: rgba(255, 255, 255, 0.1);
+    justify-content: space-around;
+
+
+    }
+
+    .main2 a{ 
+
+        color:#E85356;
+        text-decoration: none;
+       
+        
+        
+        
+
+
+    }
+
+    .main2 span{ 
+
+        color: rgba(255, 255, 255, 0.5);
+        
+        text-align: justify;
+        margin-top: 40px;
+        margin-left: 30px;
+        
+        
+        
+
+
+    }
+  
+  
+      
+      
+
+    .main1{
+        width: 20%;}
+
+.main1 h1{
+    
+    font-size: 50px;
+ font-weight: lighter;
+    color: white;
+    
+   
+}
+
+.main1 h1::first-letter{
+         
+    color:#E85356;
+}  
+
+.main3{
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 50px;
+   
+}
+
+.profile{
+color: white;
+max-width: 25%;
+height: 55vh;
+
+margin-right: 40px;}
+
+.profile h1{
+font-size: xx-large;
+}
+
+.profile h3{
+    font-size: medium;}
+
+
+    .profile p{
+
+        color: rgba(255, 255, 255, 0.5);
+     margin-top: -15px;
+    }
+.profile img{
+
+   width: 100%;
+   height: 30vh;
+   opacity: 0.5;
+   transition: all 0.5s;
+   
+}
+
+.profile img:hover{
+    opacity: 100%;
+    
+}
+
+button{
+    padding: 5px;
+    background-color: #E85356;
+    color: whitesmoke;
+}
+
+.article{
+    margin-top: 50px;
+    padding-top: 50px;
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    color: whitesmoke;
+}
+
+.article1{
+    display: flex;
+  max-width: 50%;
+ 
+
+}
+.about-me{
+
+    display: flexbox;
+    max-width: 50%;
+    height: 45vh; 
+}
+
+.about-me img{
+
+    max-width: 100%;
+    height: 55vh;
+}
+
+.about-me h1{
+
+    font-size: x-large;
+    font-weight: 60px;
+}
+
+.para{
+
+    max-width:50%;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+   text-align: justify;
+}
+.gallay{
+    
+    max-width: 50%;
+    height: 45vh;}
+  
+
+.gallay1 { 
+    width: 100%;
+    height: 40vh;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+  
+    
+}
+
+.box{
+        width: 20%;
+        height: 15vh;
+        margin: 10px;
+
+}
+
+.gallay1 img{
+
+    width: 100%;
+    height: 100%;
+   transition: all 0.5s;
+   
+
+}
+
+.gallay1 img:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+
+.gallay h1{
+
+    font-size: x-large;
+    font-weight: 60px;
+    margin-left: 40px;
+}
+
+#para1
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.list ul{
+
+    list-style: none;
+   
+}
+
+.list ul li{
+
+    color: #E85356;
+    line-height: 30px;
+   
+
+}
+
+.list {
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.footer{
+
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    max-width: 100%;
+    height: 20vh;
+}
+
+.fa-copyright{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.fa-brands{
+    background-color: #E85356;
+    font-size: larger;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+

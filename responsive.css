@@ -1,0 +1,193 @@
+/* media query*/
+
+@media (max-width: 500px){
+
+    .body{
+        max-width: 500px;
+       
+    }
+    
+    .menu{
+        max-width: 500px;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+        .navbar{
+            max-width: 500px;
+            height: 20vh;
+            margin-top: -10px;
+            margin-left: -30px;
+        }
+
+         
+            .navbar ul li a{ 
+                padding: 10px;      
+            
+           
+         
+   }    
+
+  .box1:nth-child(1){
+      display: none;
+  }
+
+  .box1:nth-child(4){
+    display: none;}
+
+    .logo{
+        flex-grow: 1;
+    }
+
+    .txtwelcome{
+        display: block;
+        height: 60vh;
+
+    }
+
+    .main2{
+
+        display: block;
+        max-width: 500px;
+     
+    }
+
+    .main2 h2{
+
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .main3{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 500px;
+        height: 100vh;
+        padding: 10px;
+      
+    }
+
+.profile{
+
+    max-width: 400px;
+    height: 60vh;
+    
+  box-sizing: border-box;
+  
+
+}
+
+.article{
+   
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+    max-width: 500px;
+    height: 300vh;
+    box-sizing: border-box;
+
+    clear:both;}
+
+    .lightblack1 {
+        position: relative;
+        bottom: -1000px;
+}
+
+.article1{
+
+    display: block;
+    margin-top: -5px;
+}
+
+
+
+
+.article{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   flex-wrap: wrap;
+
+    max-width: 500px;
+    height: 190vh;
+    margin-top: 30px;
+
+}
+
+.about-me {
+
+    max-width: 500px;
+    height: 80vh;
+
+
+
+}
+
+.about-me h1{
+
+    text-align: center;
+    display: inline-flex;
+}
+
+.about-me img{
+
+    width:100%;
+    height: 70vh;
+}
+
+.para {
+    display: inline;
+    justify-content: space-between;
+    margin-top: -90px;
+    max-width: 100%;
+    height: 40px;
+   
+    box-sizing: border-box;
+   
+}
+ .list{
+     display: inline-block;
+
+ } 
+
+ .box{
+    width: 30%;
+    height: 25vh;
+    margin: 10px;
+
+}
+
+.gallay{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.footer{
+    
+    
+    display: inline-block;
+    width: 100%;
+    height: 10vh;
+    background-color: aqua;
+    color: smoke white;
+    border: 2px solid brown;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: -1050px;
+ 
+}
+
+}  
+    
+
+  
