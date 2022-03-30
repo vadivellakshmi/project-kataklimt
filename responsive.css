@@ -132,7 +132,7 @@
     .main3{
 
         display: flex;
-        flex-direction: column;
+       
         flex-wrap: wrap;
         
         justify-content: space-evenly;
@@ -147,7 +147,7 @@
 .profile{
 
     max-width: 400px;
-    height: 60vh;
+    height: 50vh;
   
   box-sizing: border-box;
   
