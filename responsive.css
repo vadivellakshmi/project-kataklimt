@@ -31,12 +31,12 @@
             max-width: 100%;
               margin: auto;
               box-sizing: border-box;
-            background-color:black; 
+            background-color:black;
     
         }
 
 }
-@media (max-width: 500px){
+@media(max-width: 500px){
 
     .body{
         max-width: 500px;
@@ -111,7 +111,7 @@
 
     .txtwelcome{
         display: block;
-        height: 60vh;
+        height: 70vh;
 
     }
 
@@ -135,8 +135,8 @@
         flex-wrap: wrap;
         justify-content: space-between;
         max-width: 500px;
-        height: 100vh;
-        padding: 10px;
+        height: 150vh;
+        padding: 20px;
       
     }
 
@@ -244,13 +244,13 @@
     
     display: inline-block;
     width: 400px;
-    height: 8vh;
+    height: 10vh;
     background-color: whitesmoke;
    box-sizing: border-box;
     padding: 10px;
     text-align: center;
     position: relative;
-    bottom: -1000px;
+    bottom: -1300px;
  
 }
 
